@@ -1,0 +1,4 @@
+﻿student_no,student_name,course_code,course_name,attendance_score,experiment_score,exam_score,final_score,weight,remarks
+STU2024001,Alice Smith,CSE101,Database Systems,95,88,92,91.1,10.0% / 30.0% / 60.0%,Excellent academic performance
+STU2024002,Bob Johnson,CSE101,Database Systems,82,79,85,82.9,10.0% / 30.0% / 60.0%,Good progress in assignments
+STU2024003,Charlie Davis,CSE101,Database Systems,100,100,100,100,10.0% / 30.0% / 60.0%,Perfect score in all assessments

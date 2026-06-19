@@ -1,0 +1,13 @@
+以管理员身份运行，打开一个PowerShell，按照下面代码的顺序，一行一行地复制黏贴以下代码到PowerShell中：
+wsl -d openEuler-24.03
+su - omm
+gs_ctl start
+再以管理员身份运行，打开新一个PowerShell，之后操作步骤（全选以下代码，并复制黏贴到新打开的PowerShell中）：
+cd C:\Users\19879\Desktop\database_project_final\database
+$env:DB_HOST="127.0.0.1"
+$env:DB_PORT="5432"
+$env:DB_NAME="postgres"
+$env:DB_USER="db_user"
+$env:DB_PASSWORD="DbUser@123"
+python scripts/init_db.py
+streamlit run app.py
